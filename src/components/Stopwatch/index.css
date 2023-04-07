@@ -1,0 +1,75 @@
+/* Write CSS here */
+.page_container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 70px;
+  padding-top: 50px;
+}
+
+.content_container {
+  width: 400px;
+  height: 600px;
+}
+
+.heading {
+}
+
+.card_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px rgb(137, 142, 151);
+  padding: 20px;
+}
+
+.image_and_cardHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stopwatch {
+}
+
+.card_title {
+  font-size: 28px;
+}
+
+.displayTime {
+  font-size: 50px;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.btn {
+  color: #ffffff;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  width: 80px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.success {
+  background-color: rgb(15, 207, 15);
+}
+
+.danger {
+  background-color: rgb(238, 9, 9);
+}
+
+.warning {
+  background-color: rgb(221, 200, 9);
+}
